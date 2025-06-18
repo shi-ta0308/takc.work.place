@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>TakC Work Place</title>
+  <link rel="stylesheet" href="style_compact.css">
+  <script src="https://cdn.jsdelivr.net/npm/sortablejs@1.15.0/Sortable.min.js"></script>
+</head>
+<body>
+  <header><h1>TakC Work Place</h1></header>
+  <div class="form">
+    <input type="text" id="title" placeholder="名前">
+    <input type="text" id="url" placeholder="URL">
+    <button onclick="addBookmark()">追加</button>
+  </div>
+  <div class="bookmark-list" id="bookmarks"></div>
+  <script src="script.js"></script>
+</body>
+</html>
